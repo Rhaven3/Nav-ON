@@ -61,7 +61,7 @@ input[type="submit"]:hover {
 }
 
 @media (max-width: 600px) {
-    h1, p, label, input[type="text"], input[type="date"], textarea, input[type="submit"] {
+    h1, p, label, input[type="text"], input[type="date"], input[type="time"], input[type="event\_level"], input[type="event\_time"],  input[type="weather\_condition"], textarea, input[type="submit"] {
         font-size: 20px;
     }
 }
