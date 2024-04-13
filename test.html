@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Create an Event</h1>
+    <form action="/submit_event" method="post">
+        <label for="event_name">Nom de l'Event:</label><br>
+        <input type="text" id="event_name" name="event_name"><br>
+        <label for="event_date">Date de l'Event:</label><br>
+        <input type="date" id="event_date" name="event_date"><br>
+        <label for="event_location">Localisation de L'Event:</label><br>
+        <input type="text" id="event_location" name="event_location"><br>
+        <label for="event_description">Description de l'Event:</label><br>
+        <textarea id="event_description" name="event_description"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
