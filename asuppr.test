@@ -1,1 +1,9 @@
 
+https://api.open-meteo.com/v1/forecast?latitude=48.8379&longitude=-1.5971&hourly=temperature_2m
+
+48.835183651179165, -1.5952493884536183
+
+https://api.open-meteo.com/v1/forecast?latitude=48.835183651179165&longitude=-1.5952493884536183&hourly=pressure_msl,wind_speed_10m,wind_speed_80m,wind_speed_120m,wind_speed_180m,wind_direction_10m,wind_direction_80m,wind_direction_120m,wind_direction_180m,wind_gusts_10m,temperature_80m,temperature_120m,temperature_180m&timezone=auto&forecast_days=1
+
+
+https://api.open-meteo.com/v1/forecast?latitude=48.835183651179165&longitude=-1.5952493884536183&hourly=temperature_2m,precipitation_probability,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m&timezone=auto&forecast_days=1
