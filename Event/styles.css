@@ -33,7 +33,7 @@ label {
     margin-top: 20px;
 }
 
-input[type="text"], input[type="date"], input[type="time"], input[type="event\_level"], input[type="event\_time"],  input[type="weather\_condition"], textarea {
+input[type="text"], input[type="date"], input[type="time"], input[type="event\_level"], input[type="event\_time"], input[type="weather\_condition"], textarea {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -41,7 +41,7 @@ input[type="text"], input[type="date"], input[type="time"], input[type="event\_l
     margin-top: 5px;
 }
 
-input[type="text"]:focus, input[type="date"]:focus, input[type="time"]:focus, input[type="event\_level"]:focus, input[type="event\_time"]:focus,  input[type="weather\_condition"]:focus, textarea:focus {
+input[type="text"]:focus, input[type="date"]:focus, input[type="time"]:focus, input[type="event\_level"]:focus, input[type="event\_time"]:focus, input[type="weather\_condition"]:focus, textarea:focus {
     outline: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); 
 }
